@@ -1,0 +1,29 @@
+nav{
+    z-index: 99;
+    height: 80px;    
+    width: 100%;
+    background-color: #131726f3;    
+    box-sizing: border-box;
+    padding-top: 0.7%;
+    position: fixed;
+}
+.div-header{
+    color: #e6e6e6;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.name-div{
+    height: 30px;
+    width: 150px;
+    padding: 0 20px;
+    font-size: 33px;
+    font-style: bold;
+}
+.name-div:hover{
+    cursor: default;
+    color: #c8c8c8;
+}
