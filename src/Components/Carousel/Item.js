@@ -13,4 +13,5 @@ export default styled.div`
     border-radius: 5px;
     color:black;      
     align-items: center;
+    text-align: center;
 `;

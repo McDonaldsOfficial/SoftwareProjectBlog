@@ -3,6 +3,7 @@ import { ReactDOM } from "react";
 import Carousel from "react-elastic-carousel"
 import Item from './Item'
 import './CC.css'
+import image_g from '../../Images/Gustavo.jpg'
 const breakPoints = [
     {width:1,itemsToShow:1},
     {width:981,itemsToShow:2},
@@ -31,32 +32,37 @@ const CC = () =>{
                         <i>Product Owner</i>
                     </Item>
                     <Item>
-                        <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
-                        <span>Los orangutanes son mis primos</span>
-                        <b>Dylan Salazar</b>
+                        <img width='140px' height='140px' style={{borderRadius:'50%'}} src={image_g}/>
+                        <span>Me encantan los abrazos</span>
+                        <br/>
+                        <b>Gustavo Valda</b>
                         <i>eduScrum Master</i>
                     </Item>
                     <Item>
                         <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
-                        <span>Me encantan los abrazos</span>
-                        <b>Gustavo Valda</b>
+                        <span>Los orangutanes son mis primos</span>
+                        <br/>
+                        <b>Dylan Salazar</b>
                         <i>Developer</i>
-                    </Item>
+                    </Item>                    
                     <Item>
                         <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
-                        <span>Plata en el lol, pero maestro en el estudio</span>
+                        <span>Plata en el lol, pero maestro <br/> en el estudio</span>
+                        <br/>
                         <b>Orual Aranda Claure</b>
                         <i>Diseñador &amp; Developer</i>
                     </Item>
                     <Item>
                         <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
                         <span>Futuro Ing.Sistemas, millonario, genio, filántropo y Playboy</span>
+                        <br/>
                         <b>Luis Esteban Arteaga</b>
                         <i>Diseñador</i>
                     </Item>
                     <Item>
                         <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
                         <span>El verdadero legionario que toma Coca Cola con pan</span>
+                        <br/>
                         <b>Alexander Joel Calle</b>
                         <i>Developer</i>
                     </Item>                 
