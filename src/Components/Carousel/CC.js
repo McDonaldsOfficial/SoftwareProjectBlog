@@ -4,6 +4,7 @@ import Carousel from "react-elastic-carousel"
 import Item from './Item'
 import './CC.css'
 import image_g from '../../Images/Gustavo.jpg'
+import image_l from '../../Images/pb.png'
 const breakPoints = [
     {width:1,itemsToShow:1},
     {width:981,itemsToShow:2},
@@ -53,7 +54,7 @@ const CC = () =>{
                         <i>Diseñador &amp; Developer</i>
                     </Item>
                     <Item>
-                        <img width='140px' height='140px' style={{borderRadius:'50%'}}/>
+                        <img width='140px' height='140px' style={{borderRadius:'50%'}} src={image_l}/>
                         <span>Futuro Ing.Sistemas, millonario, genio, filántropo y Playboy</span>
                         <br/>
                         <b>Luis Esteban Arteaga</b>
